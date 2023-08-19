@@ -1,0 +1,56 @@
+test property
+-color
+-Direction
+-letter-spacing
+- word-Spacing
+- text-indent
+- text- align
+- text-decoration
+- text- transformation
+- white-space
+- text-shadow
+- text-decoratin-style
+-text-decoration-color
+- line-height
+
+1) color:-
+p{
+   color: red;
+}
+
+2) direction:-
+p{
+   direction:ltr/rtl
+}
+ltr= left to right
+rtr= right toleft
+
+3) letter Spacing:-
+- used to add or sub space between the word 
+eg:-
+   <h1 style="letter-spacing: 5px ;" >HEADING 2</h1>
+
+4) word spacing:-
+-used to add or sub space between the words
+eg:-
+  
+5)text-indent:-
+- Used to leave some space before text
+eg:- 
+<p style="text-indent: 6cm;">the clown jenin</p> 
+
+6)text-align:-
+- to align the text 
+   possible values = left, right, justify, centre
+eg:-
+ <h1 style="text-align: center;">veera vicky</h1>
+
+7)text-decoration:-
+-to decorate the text
+possible values= none, underline, overline, line-through
+text-
+eg:-
+ <h2 style="text-decoration:underline; text-decoration-style:wavy;text-decoration-color: aqua;">Heading</h2>
+
+8)text Transformation
+

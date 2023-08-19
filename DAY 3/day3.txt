@@ -1,0 +1,109 @@
+TABLE:-
+- Border
+- Border-collapse
+- Border-spacing
+- Border-side
+- empty-cells
+- table-layout
+
+1)BORDER:-
+-It is used for specfying borders from table
+ eg:-      border:1.5px solid blue;
+
+2) BORDER_COLLAPSE:-
+- Collapse
+- Separate
+eg:-  border-collapse: separate;
+
+3) BORDER-SPACING
+- Specfic the space b/w the borders of the adjacent cells
+eg:- border-spacing: 10px;
+
+4) CAPTION-SIDE
+- It is used for controlling the placement of caption in the table by default, caption are
+  placed above the table.
+eg:- caption-side: bottom;
+
+5) EMPTY-CELLS
+- It specifies whether to display the borders or not in the empty cells in a table.
+eg:- empty-cells: hide/show;
+
+6) TABLE-LAYOUT
+-Eg:- table-layout: auto/fixed;
+
+
+CSS DISPLAY:-
+        The display property specfies how an element is displayed.
+Display
+-inline
+- block
+- none
+
+ VISIBLITY
+-hidden
+
+CSS-OVERFLOW
+        This property controls what happens to content that is too big
+to fit into an area.
+        The over flow property only works for the block element with 
+a specified height.
+
+the overflow property
+-visible
+-hidden
+-scroll
+-auto
+
+1) Visible:-
+      It is not clipped and it renders outside the element box.
+
+2) Hidden:-
+    The overflow is Clipped, and the rest of the content ishidden.
+
+3) Scroll:-
+    The overflow is clipped & a scroll bar is added to scroll inside
+the box.
+
+note:- this will add a scroll bar both horizontally & vertically.
+                      - overflow-x
+	     - overflow-y
+4) Auto
+     The auto value is similar tp scroll, but it adds scrollbars only when necessary.
+
+
+LIST:-
+- List-style-type(unorder=circle, square & order= upper-roman, lower-alpha)
+- List-style-image
+- List-style-position
+-List-style
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
