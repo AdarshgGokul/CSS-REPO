@@ -1,0 +1,19 @@
+PSEUDO ELEMENT:-
+	::first-line
+	::first-letter
+	::before
+	::after
+	::selection -- Color, background, outline
+	::marker-- List items
+
+OUTLINE:-
+	outline-style -- Solid, Dotted
+	outline-color -- red, green
+	outline-width
+	outline-offset
+
+BOX-MODEL:-
+	padding-top
+	padding-bottom
+	padding-left
+	padding-right
