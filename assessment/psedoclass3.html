@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            
+    background-image:url(milkyway.jpg);
+        }
+        h1{
+            color:white;
+            text-align: center;
+            
+        }
+        .container{
+            /* border: 5px solid black; */
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2, 200px) ;
+    gap: 40px 40px;
+    place-content:space-around;
+
+    
+            
+        }
+        .grid{
+                color: aliceblue;
+                font-size: 35px;
+                font-weight: bold;
+                padding: 16px;
+                text-align: center;
+                color: black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                
+            
+                   
+
+        }
+        .box1{ background-image: url(robot.jpg);background-size: cover;}
+        .box2{ background-color: grey; 
+        
+        }
+        .box3{ background-color: rgb(60, 200, 255);}
+        .box4{ background-color: yellow;}
+        .box5{ background-color: grey;}
+        .box6{ background-color: rgb(60, 200, 255);}
+        .box7{ background-color: yellow;}
+        .box8{ background-image: url(robot.jpg);background-size: cover;}
+
+    </style>
+</head>
+<body>
+    <section><h1>PROJECTS</h1>
+        <div class="container" >
+            <div class="grid box1"></div>
+            <div class="grid box2">WEB DESIGN</div>
+            <div class="grid box3">CHAT BOTS</div>
+            <div class="grid box4">GAME DESIGN</div>
+            <div class="grid box5">TEXT ANALYISIS</div>
+            <div class="grid box6">JAVA SCRIPT</div>
+            <div class="grid box7">DATA PRIVACY</div>
+            <div class="grid box8"></div>
+        </div>
+    </section>
+    
+
+    
+</body>
+</html>
